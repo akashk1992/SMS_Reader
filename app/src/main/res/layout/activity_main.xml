@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="12dp"
+    android:padding="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_view"
+        android:text="You will get message below when received :"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sms_view"
+        android:textStyle="italic"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/info_view"
+        android:padding="8dp" />
+
+</RelativeLayout>
